@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_glasses"
+        android:title="@string/menu"
+        android:icon="@drawable/exo_icon_vr"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_set_video"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="设置视频播放源"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_set_info"
+        android:title="设置身份"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_secret"
+        android:title="磕盐汪神秘入口"
+        app:showAsAction="never" />
+
+</menu>
